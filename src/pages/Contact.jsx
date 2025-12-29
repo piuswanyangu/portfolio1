@@ -27,10 +27,10 @@ function Contact() {
 
   const contactInfo = [
     { icon: <FaEnvelope size={24} />, label: 'Email', value: 'wanyangupius@gmail.com', link: 'mailto:wanyangupius@gmail.com' },
-    { icon: <FaPhone size={24} />, label: 'Phone', value: '+254-792-342944', link: 'tel:+254792342944' },
+    { icon: <FaPhone size={24} />, label: 'Phone', value: '+254-792-342-944', link: 'tel:+254792342944' },
     { icon: <FaMapMarkerAlt size={24} />, label: 'Location', value: 'Nairobi, Kenya', link: null },
     { icon: <FaLinkedin size={24} />, label: 'LinkedIn', value: 'linkedin.com/in/pius-wanyangu', link: 'https://linkedin.com/in/pius-wanyangu' },
-    { icon: <FaGithub size={24} />, label: 'GitHub', value: 'github.com/pius-wanyangu', link: 'https://github.com/pius-wanyangu' }
+    { icon: <FaGithub size={24} />, label: 'GitHub', value: 'github.com/pius-wanyangu', link: 'https://github.com/piuswanyangu' }
   ];
 
   return (

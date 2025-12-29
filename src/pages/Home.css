@@ -1,0 +1,91 @@
+/* Services Section */
+.services-section {
+  background: #f8f9fa;
+}
+
+.section-title {
+  color: #2d3748;
+  font-weight: 700;
+}
+
+.section-subtitle {
+  color: #718096;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Service Cards */
+.service-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.service-card .card-title {
+  color: #2d3748;
+  font-size: 1.25rem;
+}
+
+.service-card .card-description {
+  color: #718096;
+  line-height: 1.6;
+}
+
+/* Service Icons */
+.service-icon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.icon-purple {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.15), rgba(102, 126, 234, 0.05));
+  color: #667eea;
+}
+
+.icon-pink {
+  background: linear-gradient(135deg, rgba(240, 147, 251, 0.15), rgba(240, 147, 251, 0.05));
+  color: #f093fb;
+}
+
+.icon-blue {
+  background: linear-gradient(135deg, rgba(79, 172, 254, 0.15), rgba(79, 172, 254, 0.05));
+  color: #4facfe;
+}
+
+.icon-green {
+  background: linear-gradient(135deg, rgba(67, 233, 123, 0.15), rgba(67, 233, 123, 0.05));
+  color: #43e97b;
+}
+
+.service-card:hover .service-icon {
+  transform: scale(1.1);
+}
+
+/* CTA Section */
+.cta-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.cta-text {
+  opacity: 0.95;
+}
+
+.cta-section .btn-light {
+  transition: all 0.3s ease;
+}
+
+.cta-section .btn-light:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
