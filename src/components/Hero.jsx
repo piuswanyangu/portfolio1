@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FaDownload, FaProjectDiagram } from 'react-icons/fa';
 import './Hero.css'; // Import the CSS file below
+import myCV  from './images/Pius CV.pdf'
 
 function Hero() {
   return (
@@ -26,7 +27,7 @@ function Hero() {
                 <Button 
                   variant="primary" 
                   size="lg" 
-                  href="/resume.pdf" 
+                  href={myCV}
                   download
                   className="hero-btn hero-btn-primary px-4"
                 >
